@@ -1,0 +1,170 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit;
+}
+
+body {
+    text-rendering: optimizeLegibility;
+    margin: auto;
+    width: 670px;
+    /* background-color: #f5f5f5; */
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.slogan {
+    font-weight: 500;
+    color: #f5f5f5;
+    font-size: 16px;
+    margin: 0;
+}
+
+.zaruka {
+    color: #f5f5f5;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.cena {
+    color: #f5f5f5;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.zbozi {
+    display: flex;
+    margin-top: 50px;
+    height: 440px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    border-radius: 25px;
+}
+
+.vizual {
+    width: 335px;
+    background-image: linear-gradient(#06d7c1, #50cc49);
+    padding-left: 30px;
+    height: 440px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    position: relative;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+}
+
+p {
+    /* padding: 30px; */
+}
+
+.detaily {
+    width: 335px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: relative;
+
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+}
+
+.cenovka {
+    position: absolute;
+    text-align: right;
+    bottom: 30px;
+    right: 30px;
+    /* padding-right: 30px;
+    padding-bottom: 30px; */
+
+}
+
+.nazev {
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.logo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bota {
+    position: absolute;
+    left: -80px;
+    top: 130px;
+
+}
+
+.produkt {
+    color: #959595;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+.parametr {
+    text-transform: uppercase;
+    border-top: solid;
+    border-color: #06d7c1;
+    padding-top: 30px;
+    margin-top: 0;
+}
+
+.popis {
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.tlacitko {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    background-color: #f15f42;
+    border-radius: 9px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+
+}
+
+.vybrana {
+    color: #f15f42;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #f15f42;
+    border-width: thin;
+}
+
+.velikosti {
+    display: block;
+    padding-left: 0px;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+}
+
+h1 {
+    padding-top: 30px;
+    /* padding-left: 30px; */
+}
+
+/*
+ BARVY
+ svetle sede pozadi      #f5f5f5
+ tmavsi seda             #959595
+ barevny prechod nahore  #06d7c1
+ barevny prechod dole    #50cc49
+ zelena cara             #06d7c1
+ oranzova                #f15f42
+
+ PISMO
+ Rubik - pouzite rezy pisma regular 400 a medium 500
+ https://fonts.google.com/specimen/Rubik
+*/
+
+/* ----- zde zacni psat vlastni css ----- */
